@@ -2,14 +2,12 @@
 
 # Project Name
 
-> Description the project.
+> Capstone 1 - Conference Page
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Javascript, HTML and CSS
 
 ## Live Demo (if available)
 
@@ -18,45 +16,33 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running follow these simple example steps:
+- Git clone the repository to your local machine:
+```
+git clone https://github.com/AlejandraKeber/Conference-Page.git
+```
+- Open the folder with you code editor
 
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+## Deployment:
+- Please go to this link to deploy the webpage:
 
 ## Authors
 
-👤 **Author1**
+👤 **Author:** Alejandra Keber Maggi
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@AlejandraKeber](https://github.com/AlejandraKeber)
+- Twitter: @KeberAlejandra
+- LinkedIn: [alejandra-keber](www.linkedin.com/in/alejandra-keber)
 
-👤 **Author2**
+## Ackowledgments
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+  * To [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), Original design.
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/AlejandraKeber/Conference-Page/issues).
 
 ## Show your support
 
