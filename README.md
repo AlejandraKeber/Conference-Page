@@ -21,10 +21,10 @@ git clone https://github.com/AlejandraKeber/Conference-Page.git
 
 
 ## Deployment:
-- Please go to this link to deploy the webpage: [Conference Page](https://alejandrakeber.github.io/Conference-Page/)
+- Please go to this link to deploy the website: [Conference Page](https://alejandrakeber.github.io/Conference-Page/)
 
 ## Video demonstration:
-- [Video demonstration](https://...)
+- [Video demonstration](https://www.loom.com/share/1406c35562b244f088e5a4ff6fa4a360)
 
 ## Authors
 
