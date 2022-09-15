@@ -10,14 +10,6 @@ The project consists of the home page and the about page.
 
 - Javascript, HTML and CSS
 
-<<<<<<< HEAD
-=======
-## Live Demo (if available)
-
-[Live Demo Link](https://alejandrakeber.github.io/Conference-Page/)
-
-
->>>>>>> 39374f9c3b1d1bf8a07b6846ebf2d92a0e85cbb9
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps:
