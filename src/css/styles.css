@@ -73,7 +73,7 @@ ul {
 
 .home_title {
   font-family: 'COCOGOOSE', sans-serif;
-  font-size: 32px;
+  font-size: 38px;
   font-weight: 900;
   -webkit-background-clip: text;
   color: transparent;
@@ -91,6 +91,7 @@ ul {
 .home_date {
   font-family: 'COCOGOOSE', sans-serif;
   font-size: 24px;
+  padding-top: 30px;
 }
 
 .program {
@@ -200,9 +201,9 @@ ul {
 }
 
 .about_title {
-  font-family: 'COCOGOOSE', sans-serif;                                          
+  font-family: 'COCOGOOSE', sans-serif;                                       
   color: rgb(239, 81, 60);
-  font-size: 32px;
+  font-size: 38px;
   font-weight: 900;
 }
 
@@ -218,6 +219,7 @@ ul {
 .about_contact {
   line-height: 24px;
   margin: 20px 50px 1px 50px;
+  text-align: center;
 }
 
 .about_contact_email {
@@ -231,6 +233,12 @@ ul {
   padding-top: 30px;
 }
 
+.about_logo_p {
+  font-size: 12px;
+  padding: 1px 30px 20px 30px;
+  text-align: center;
+}
+
 .logo {
   display: block;
   margin: auto;
@@ -239,12 +247,13 @@ ul {
 .about_past {
   font-size: 24px;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .about_past_desc {
-  line-height: 24px;
-  margin: 20px 50px 1px 50px;
+  font-size: 15px;
+  text-align: center;
+  padding: 1px 30px 20px 30px;
 }
 
 .about_photo {
@@ -296,7 +305,7 @@ ul {
   padding-bottom: 20px;
 }
 
-.partner_img img {
+.partner_photo {
   filter: grayscale(100%);
   margin: auto;
 }
@@ -308,6 +317,9 @@ ul {
   padding: 30px 30px;
   display: flex;
   align-content: space-around;
+  justify-content: center;
+  height: 150px;
+  align-items: center;
 }
 
 .rigths {
@@ -345,6 +357,10 @@ ul {
   .close {
     text-align: end;
   }
+
+  .desk {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
@@ -353,11 +369,11 @@ ul {
     max-width: 25%;
     float: left;
   }
-  
+
   .hamburger {
     display: none;
   }
-  
+
   .nav_items {
     display: flex;
     flex-direction: row;
@@ -368,13 +384,17 @@ ul {
     justify-items: flex-end;
   }
 
+  .home {
+    padding: 100px
+  }
+
   .program_det {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 5px;
-    padding: 20px 10px;
+    padding: 20px 70px;
   }
 
   .activity {
@@ -391,7 +411,7 @@ ul {
   }
 
   .activity_description {
-    padding: 0px;
+    padding: 0.1px;
   }
 
   .top_menu {
@@ -417,6 +437,10 @@ ul {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding-bottom: 30px;
+  }
+
+  .about_description {
+    margin: 20px 200px;
   }
 
   .about_past_desc {
@@ -449,4 +473,18 @@ ul {
     -webkit-text-stroke: 0.5px grey;
   }
 
+  .license2 {
+    background-color: #3e3e3e;
+    color: #fff;
+    font-size: 24px;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
   }
+
+  .mob {
+    display: none;
+  }
+}

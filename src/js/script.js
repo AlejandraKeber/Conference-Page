@@ -70,7 +70,7 @@ for (let i = 0; i < speakersInfo.length; i += 1) {
   const speakImg = document.createElement('div');
   speakImg.classList.add('speakers_img');
   speak.appendChild(speakImg);
-  let image = document.createElement('img');
+  const image = document.createElement('img');
   image.src = speakersInfo[i].image;
   image.alt = 'image';
   speakImg.appendChild(image);
@@ -78,22 +78,22 @@ for (let i = 0; i < speakersInfo.length; i += 1) {
   const speakData = document.createElement('div');
   speakData.classList.add('speakers_data');
   speak.appendChild(speakData);
-  
-  let speakName = document.createElement('h2');
+
+  const speakName = document.createElement('h2');
   speakName.classList.add('speakers_name');
   speakName.textContent = speakersInfo[i].name;
   speakData.appendChild(speakName);
 
-  let speakPos = document.createElement('p');
+  const speakPos = document.createElement('p');
   speakPos.classList.add('speakers_pos');
   speakPos.textContent = speakersInfo[i].position;
   speakData.appendChild(speakPos);
 
-  let speakDesc = document.createElement('p');
+  const speakDesc = document.createElement('p');
   speakDesc.classList.add('speakers_desc');
   speakDesc.textContent = speakersInfo[i].description;
   speakData.appendChild(speakDesc);
 
-  document.querySelector('.speakers_container').appendChild(speak)
+  document.querySelector('.speakers_container').appendChild(speak);
 
 }
