@@ -1,9 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Capstone 1 - Conference Page
 
-> Capstone 1 - Conference Page
-
+This project is based in a website for a conference following the design guidelines provided and aplying all the things we have learned in the first module at Microverse
+In this project, I applied interactions (such as links and mobile menu), created a section dynamically in JavaScript and made the website responsive on mobile and desktop versions.
+The project consists of the home page and the about page.
 
 ## Built With
 
@@ -25,7 +26,10 @@ git clone https://github.com/AlejandraKeber/Conference-Page.git
 
 
 ## Deployment:
-- Please go to this link to deploy the webpage:
+- Please go to this link to deploy the webpage: [Conference Page](https://alejandrakeber.github.io/Conference-Page/)
+
+## Video demonstration:
+- [Video demonstration](https://...)
 
 ## Authors
 
@@ -37,7 +41,7 @@ git clone https://github.com/AlejandraKeber/Conference-Page.git
 
 ## Ackowledgments
 
-  * To [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), Original design.
+To [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), Original design.
 
 ## 🤝 Contributing
 

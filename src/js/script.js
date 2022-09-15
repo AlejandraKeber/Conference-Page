@@ -95,5 +95,4 @@ for (let i = 0; i < speakersInfo.length; i += 1) {
   speakData.appendChild(speakDesc);
 
   document.querySelector('.speakers_container').appendChild(speak);
-
 }

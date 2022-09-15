@@ -201,7 +201,7 @@ ul {
 }
 
 .about_title {
-  font-family: 'COCOGOOSE', sans-serif;                                       
+  font-family: 'COCOGOOSE', sans-serif;
   color: rgb(239, 81, 60);
   font-size: 38px;
   font-weight: 900;
@@ -303,6 +303,8 @@ ul {
 .partner_img {
   display: flex;
   padding-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 
 .partner_photo {
@@ -368,6 +370,8 @@ ul {
     display: block;
     max-width: 25%;
     float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .hamburger {
@@ -378,14 +382,15 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: 40px;
     color: gray;
     height: 70px;
     justify-items: flex-end;
+    padding-top: 25px;
   }
 
   .home {
-    padding: 100px
+    padding: 100px;
   }
 
   .program_det {
