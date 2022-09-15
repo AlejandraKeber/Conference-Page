@@ -12,7 +12,7 @@ The project consists of the home page and the about page.
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://alejandrakeber.github.io/Conference-Page/)
 
 
 ## Getting Started
