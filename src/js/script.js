@@ -1,27 +1,28 @@
-const hamburger = document.querySelector('.hamburger');
+const openMenu = document.querySelector('.hamburger');
 const modalMenu = document.querySelector('.nav_items');
-hamburger.addEventListener('click', () => {
-  modalMenu.style.left = 0;
+
+openMenu.addEventListener('click', () => {
+  modalMenu.style.display = 'block';
 });
 
 const closeMenu = document.querySelector('.close');
 closeMenu.addEventListener('click', () => {
-  modalMenu.style.left = '-100%';
+  modalMenu.style.display = 'none';
 });
 
 const closeProgram = document.querySelector('.navprogram');
 closeProgram.addEventListener('click', () => {
-  modalMenu.style.left = '-100%';
+  modalMenu.style.display = 'none';
 });
 
 const closeSpeakers = document.querySelector('.navspeakers');
 closeSpeakers.addEventListener('click', () => {
-  modalMenu.style.left = '-100%';
+  modalMenu.style.display = 'none';
 });
 
 const closeAbout = document.querySelector('.navabout');
 closeAbout.addEventListener('click', () => {
-  modalMenu.style.left = '-100%';
+  modalMenu.style.display = 'none';
 });
 
 const speakersInfo = [
