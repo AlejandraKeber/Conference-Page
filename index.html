@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./src/css/styles.css" /> <!-- Link css file -->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'> <!-- Import Google Font -->
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+    <title>Conference - Home page</title>
+</head>
+
+<body>
+    <header>
+        <div class="top_menu desk">
+            <ul class="social_icons">
+                <li><a class="socialimg" href="https://www.facebook.com"><img src="./src/images/icons/facebookicon.png"
+                            alt="Facebook icon"></a></li>
+                <li><a class="socialimg" href="https://www.twitter.com"><img src="./src/images/icons/twittericon.png"
+                            alt="Twitter icon"></a></li>
+                <li>English</li>
+            </ul>
+        </div>
+        <nav class="navbar">
+            <a class="nav_logo desk" href="index.html"><img src="./src/images/logo.jpeg"></a>
+            <ul class="nav_items">
+                <li class="close"><img src="./src/images/x-icon.png" alt="close menu"></li>
+                <li class="navhome"><a href="index.html">Home</a></li>
+                <li class="navprogram"><a href="#program">Program</a></li>
+                <li class="navspeakers"><a href="#speakers">Speakers</a></li>
+                <li class="navabout"><a href="about.html">About</a></li>
+            </ul>
+            <div class="hamburger">
+                <a href="#"><img src="./src/images/mobile_menu.png" alt="Menu"></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Page -->
+    <section class="home">
+        <p class="home_intro">"For cheese lovers!!!"</span>
+        <h1 class="home_title">ARTISAN CHEESE <br>FESTIVAL - 2022</h1>
+        <p class="home_description">
+            Conference series with the participation of experts in the manufacture of mature cheeses and artisanal
+            cheese making.
+            <br>3th Edition.
+        </p>
+        <p class="home_date">2022.10.12 (THUR) ~ 13(FRI)</p>
+        <p class="home_date_det">@ San Miguel de Sema, Boyacá, Colombia.</p>
+    </section>
+    <section class="program" id="program">
+        <h2 class="program_title">Main Program</h2>
+        <div class="program_line"></div>
+        <div class="program_det">
+            <div class="activity">
+                <img src="./src/images/icons/lecture.png">
+                <h3 class="activity_type">Lecture</h3>
+                <p class="activity_description">Lectures on good practices and cheese production techniques
+                </p>
+            </div>
+            <div class="activity">
+                <img src="./src/images/icons/exhibition.png">
+                <h3 class="activity_type">Exhibition</h3>
+                <p class="activity_description">Sample and tasting of different types of cheese</p>
+            </div>
+            <div class="activity">
+                <img src="./src/images/icons/forum.png">
+                <h3 class="activity_type">Forum</h3>
+                <p class="activity_description">Have the time to share your thoughts and opinions with experts</p>
+            </div>
+            <div class="activity">
+                <img src="./src/images/icons/workshop.png">
+                <h3 class="activity_type">Workshop</h3>
+                <p class="activity_description">Guided class and recipes of our matured cheese</p>
+            </div>
+            <div class="activity">
+                <img src="./src/images/icons/ignite.png">
+                <h3 class="activity_type">Network</h3>
+                <p class="activity_description">Great opportunity to network with people related to dairy industry</p>
+            </div>
+        </div>
+        <div class="program_link mob">
+            <a>Join Artisan Cheese Festival - 2022</a>
+        </div>
+        <div class="program_more desk">
+            <p>SEE THE WHOLE PROGRAM</p>
+        </div>
+    </section>
+
+    <!-- Speakers section - fill dynamic from js -->
+    <section>
+        <h2 class="speakers_title" id="speakers">Featured Speakers</h2>
+        <div class="program_line"></div>
+    </section>
+    <section class="speakers_container">
+    </section>
+
+    <!-- Partners section for desktop version -->
+    <section class="partners desk">
+        <div class="partners_desk">
+            <h3 class="about_partner">Partners</h3>
+            <div class="program_line"></div>
+            <div class="partner_img">
+                <img class="partner_photo" src="./src/images/partners/mozilla.png" alt="mozilla logo">
+                <img class="partner_photo" src="./src/images/partners/google.png" alt="google logo">
+                <img class="partner_photo" src="./src/images/partners/naver.png" alt="naver logo">
+                <img class="partner_photo" src="./src/images/partners/airbnb.png" alt="airbnb logo">
+
+            </div>
+        </div>
+        <footer class="license">
+            <h3 class="license_title">Artisan Cheese</h3>
+            <p class="rigths">2017 Artisan Cheese <br> Rigths Reserved</p>
+        </footer>
+    </section>
+
+    <!-- About section  is in other file (about.html)-->
+
+    <script src="./src/js/script.js"></script>
+</body>
+</html>

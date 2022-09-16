@@ -1,62 +1,47 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Capstone 1 - Conference Page
 
-> Description the project.
-
+This project is based in a website for a conference following the design guidelines provided and aplying all the things we have learned in the first module at Microverse
+In this project, I applied interactions (such as links and mobile menu), created a section dynamically in JavaScript and made the website responsive on mobile and desktop versions.
+The project consists of the home page and the about page.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Javascript, HTML and CSS
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running follow these simple example steps:
+- Git clone the repository to your local machine:
+```
+git clone https://github.com/AlejandraKeber/Conference-Page.git
+```
+- Open the folder with you code editor
 
 
-To get a local copy up and running follow these simple example steps.
+## Deployment:
+- Please go to this link to deploy the website: [Conference Page](https://alejandrakeber.github.io/Conference-Page/)
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+## Video demonstration:
+- [Video demonstration](https://www.loom.com/share/1406c35562b244f088e5a4ff6fa4a360)
 
 ## Authors
 
-👤 **Author1**
+👤 **Alejandra Keber Maggi:** 
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@AlejandraKeber](https://github.com/AlejandraKeber)
+- Twitter: @KeberAlejandra
+- LinkedIn: [alejandra-keber](www.linkedin.com/in/alejandra-keber)
 
-👤 **Author2**
+## Ackowledgments
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+To [Cindy Shin](https://www.behance.net/adagio07), the autor of the [original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) as required by the [Creative Commons License](https://creativecommons.org/licenses/).
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/AlejandraKeber/Conference-Page/issues).
 
 ## Show your support
 
@@ -70,6 +55,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
